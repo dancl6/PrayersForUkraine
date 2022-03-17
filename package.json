@@ -1,0 +1,29 @@
+{
+  "name": "runbuddy_ccfl_forukrainesite",
+  "version": "1.0.0",
+  "description": "## Purpose A website that offers fitness training services.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancl6/run-buddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancl6/run-buddy/issues"
+  },
+  "homepage": "https://github.com/dancl6/run-buddy#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
