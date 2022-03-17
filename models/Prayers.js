@@ -3,7 +3,7 @@ const sequelize = require('../config/connection');
 
 class Prayers extends Model {}
 
-// create data types for Category model
+// create data types for Prayers model
 Prayers.init(
     {
       id: {
