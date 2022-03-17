@@ -2,13 +2,13 @@ const router = require('express').Router();
 const { Prayers } = require('../../models');
 const { Op } = require('sequelize');
 var Filter = require('bad-words');
-var customFilter = new Filter({ placeHolder: 'x'});
+var customFilter = new Filter({ placeHolder: '|'});
 
 
 //POST new prayer
 router.post('/', (req, res) => {
     // Check if any profity exists in prayer
-    if (!customFilter.clean(req.body.prayer).includes("x") && !customFilter.clean(req.body.name).includes("x")) {
+    if (!customFilter.clean(req.body.prayer).includes("|") && !customFilter.clean(req.body.name).includes("|")) {
     Prayers.create({
         prayer: req.body.prayer,
         name: req.body.name
