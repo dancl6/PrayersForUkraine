@@ -6,7 +6,7 @@
 
 ## Description
 
-Website to support Ukraine from the fighting that's occurring there with the capability to view prayers or submit a prayer.  Technologies used consisted of Handlebars, Express, MySQL and Node.js.
+Website to support Ukraine from the fighting that's occurring there with the capability to view prayers or submit a prayer. One intent is to provide spiritual support during a very difficult time for Ukraine hoping there can be some kind of reconciliation. Technologies used consisted of Handlebars, Express, SQL, JavaScript, and Node.js.
 
 ## Table of Contents
 * [Badges](#badges)
