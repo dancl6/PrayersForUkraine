@@ -772,6 +772,7 @@
 
     .margin {
       margin: 25px 50px 75px 100px;
+      word-wrap: break-word;
     }
 
     .font-color {
