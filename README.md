@@ -41,7 +41,7 @@ MIT License
 
 ## Contributing
 
-Dan Lyons
+Dan Lyons and Amber Chunn
 
 ## Tests
 
