@@ -1,5 +1,5 @@
 async function prayerFormHandler(event) {
-    event.preventDefault();
+    event.preventDefault(); 
   
     const prayer = document.querySelector('input[name="prayer"]').value.trim();
     const name = document.querySelector('input[name="name"]').value.trim();
